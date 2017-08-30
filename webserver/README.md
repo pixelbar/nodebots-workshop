@@ -9,7 +9,7 @@ Spins up a webserver on http://localhost:3000. Lights up the LED for 1 second fo
 - jumper wires
 - 1x red LED 
 - 1x 220Ω resistor (Red-Red-Brown)
-- 1x 10kΩ resistor (Brown-Black-Orange)
+- 1x 1kΩ resistor (Brown-Black-Red)
 - 1x button
 
 ## Wire up
