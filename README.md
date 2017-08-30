@@ -12,7 +12,7 @@
 - A set of jumper wires
 - 1x red LED
 - 1x 220Ω resistor (Red-Red-Brown - [view color coding](http://iamtechnical.com/sites/default/files/220-ohm-resistor-color-code.jpg))
-- 1x 10kΩ resistor (Brown-Black-Orange - [view color coding](http://iamtechnical.com/sites/default/files/10k-ohm-resistor-color-code.jpg))
+- 1x 1kΩ resistor (Brown-Black-Red - [view color coding](http://iamtechnical.com/sites/default/files/1k-ohm-resistor-color-code.jpg))
 - 1x button
 - Computer with:
   - [Node.js] and [npm] (this is installed with Node.js)
