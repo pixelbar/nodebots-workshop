@@ -45,7 +45,7 @@ function onIncomingTwitterData(evt) {
 function sendTweet() {
   twitterClient.post(
     'statuses/update',
-    { status: 'Hello from my Arduino Nano running #nodejs! 🤖 #nodebots' },
+    { status: 'Hello from my Arduino Nano running #nodejs! 🤖 #nodebots #nodeschool #pixelbar' },
     (err, tweet, response) => {
       if (err) {
         throw err;
