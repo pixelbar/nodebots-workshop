@@ -9,7 +9,7 @@ Lights up LED when someone tweets about `#nodebots` and sends a tweet when the b
 - jumper wires
 - 1x red LED 
 - 1x 220Ω resistor (Red-Red-Brown)
-- 1x 10kΩ resistor (Brown-Black-Orange)
+- 1x 1kΩ resistor (Brown-Black-Red)
 - 1x button
 
 ## Wire up
