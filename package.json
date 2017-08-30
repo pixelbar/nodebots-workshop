@@ -1,7 +1,7 @@
 {
   "name": "nodebots-workshop",
   "version": "1.0.0",
-  "description": "🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at SHA2017",
+  "description": "🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at Nodeschool Rotterdam",
   "main": "hello-world/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkundel/nodebots-workshop.git"
+    "url": "git+https://github.com/pixelbar/nodebots-workshop.git"
   },
   "author": "Dominik Kundel <dominik.kundel@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dkundel/nodebots-workshop/issues"
+    "url": "https://github.com/pixelbar/nodebots-workshop/issues"
   },
-  "homepage": "https://github.com/dkundel/nodebots-workshop#readme",
+  "homepage": "https://github.com/pixelbar/nodebots-workshop#readme",
   "dependencies": {
     "express": "^4.15.3",
     "got": "^7.1.0",
