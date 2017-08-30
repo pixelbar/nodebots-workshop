@@ -3,7 +3,7 @@
   <h1 align="center">Nodebots Workshop</h1>
 </p>
 
-🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at SHA2017
+🤖  This repo serves as resources for the Hardware &amp;&amp; JS workshop given at [NodeSchool Rotterdam].
 
 ## Requirements
 
@@ -11,13 +11,13 @@
 - A breadboard
 - A set of jumper wires
 - 1x red LED
-- 1x 220Ω resistor
-- 1x 10kΩ resistor
+- 1x 220Ω resistor (Red-Red-Brown - [view color coding](http://iamtechnical.com/sites/default/files/220-ohm-resistor-color-code.jpg))
+- 1x 10kΩ resistor (Brown-Black-Orange - [view color coding](http://iamtechnical.com/sites/default/files/10k-ohm-resistor-color-code.jpg))
 - 1x button
 - Computer with:
-  - [Node.js] and [npm]
+  - [Node.js] and [npm] (this is installed with Node.js)
   - Potentially the [Arduino IDE] to install the firmware
-  - Your favorite code editor
+  - Your favorite code editor (e.g. [Visual Studio Code])
   - The drivers to detect your Arduino (everything with a CH340G chip): 
     - [Windows, Linux, Mac (10.11 El Capitan and lower)](https://www.sparkfun.com/products/14050)
     - [Mac (10.12 Siera and higher)](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver)
@@ -32,7 +32,7 @@ each of the folders you can find instructions on the hardware setup and how to r
 the code. But first make sure to perform the following instructions:
 
 ```bash
-git clone git@github.com:dkundel/nodebots-workshop.git
+git clone git@github.com:pixelbar/nodebots-workshop.git
 cd nodebots-workshop
 npm install
 ```
@@ -56,8 +56,9 @@ These are the examples available:
 - [Nodebots website][Nodebots]
 - [Johnny-Five website][Johnny-Five]
 - [Getting started with nodebots]
-- [How I hacked my coffee machine]
+- [How Dominik hacked his coffee machine]
 - [Tessel website][Tessel 2]
+- [Espruino]
 - [Nodebot workshop npm module][nodebot-workshop]
 
 ## License
@@ -67,16 +68,20 @@ MIT
 ## Collaborators
 
 - [Dominik Kundel](https://github.com/dkundel)
+- [David van Leeuwen](https://twitter.com/davidvanleeuwen)
 
+[NodeSchool Rotterdam]: https://nodeschool.io/rotterdam/
+[Visual Studio Code]: https://code.visualstudio.com
 [Node.js]: https://nodejs.org
 [npm]: https://npmjs.com
 [Arduino IDE]: https://www.arduino.cc/en/Main/Software
 [Nodebots]: http://nodebots.io/
 [Johnny-Five]: http://johnny-five.io/
-[How I hacked my coffee machine]: https://moin.world/2017/04/01/how-we-hacked-our-coffee-machine-with-javascript/
+[How Dominik hacked his coffee machine]: https://moin.world/2017/04/01/how-we-hacked-our-coffee-machine-with-javascript/
 [J5 Node Module]: https://www.npmjs.com/package/johnny-five
 [J5 Platform Support]: http://johnny-five.io/platform-support/
 [Arduino Nano]: http://johnny-five.io/platform-support/#arduino-nano
 [nodebot-workshop]: https://www.npmjs.com/package/nodebot-workshop
 [Tessel 2]: https://tessel.io/
+[Espruino]: https://www.espruino.com/
 [Getting started with nodebots]: https://www.twilio.com/blog/2017/08/js-hardware-getting-started-with-nodebots-and-johnny-five.html
