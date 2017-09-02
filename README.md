@@ -15,6 +15,7 @@
 - 1x 1kΩ resistor (Brown-Black-Red - [view color coding](http://iamtechnical.com/sites/default/files/1k-ohm-resistor-color-code.jpg))
 - 1x button
 - Computer with:
+  - [Git] (for downloading the workshop)
   - [Node.js] and [npm] (this is installed with Node.js)
   - Potentially the [Arduino IDE] to install the firmware
   - Your favorite code editor (e.g. [Visual Studio Code])
@@ -85,3 +86,4 @@ MIT
 [Tessel 2]: https://tessel.io/
 [Espruino]: https://www.espruino.com/
 [Getting started with nodebots]: https://www.twilio.com/blog/2017/08/js-hardware-getting-started-with-nodebots-and-johnny-five.html
+[Git]: https://git-scm.com/
